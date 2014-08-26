@@ -1,0 +1,50 @@
+package com.devking.reader.app;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.GridView;
+import android.widget.SimpleAdapter;
+
+/**
+ * DK_Reader主界面程序
+ * @author King
+ *
+ */
+public class MainActivity extends Activity {
+
+	private GridView bookRackGridView = null; 	//书架
+	
+	private List<Map<String, String>> bookList = null; 
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		bookRackGridView = (GridView) findViewById(R.id.bookRack);
+	}
+	
+	private void initBookData(){
+		bookList = new ArrayList<Map<String,String>>();
+		Map<String, String> bookMap = new HashMap<String, String>();
+		bookList.add(Map<"Book1", "Think In Python">);
+	}
+
+	public void initBookRackData(){
+		SimpleAdapter simpleAdapter = new SimpleAdapter(this, data, resource, from, to)
+		bookRackGridView.setAdapter(simpleAdapter);
+	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

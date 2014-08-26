@@ -1,0 +1,39 @@
+-- VERSION_4
+-- START DISKCACHE
+D:\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\PythonTest\com.python.pydev.analysis\v2_indexcache
+tutorial.spiders.dmoz_spider|1407655192314|D:\workspace\PythonTest\tutorial\spiders\dmoz_spider.py
+tutorial.spiders.__init__|1407598800460|D:\workspace\PythonTest\tutorial\spiders\__init__.py
+tutorial.items|1407653085543|D:\workspace\PythonTest\tutorial\items.py
+tutorial.settings|1407644478956|D:\workspace\PythonTest\tutorial\settings.py
+tutorial.__init__|1407598800458|D:\workspace\PythonTest\tutorial\__init__.py
+tutorial.pipelines|1407644478957|D:\workspace\PythonTest\tutorial\pipelines.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+6=DmozItem
+5=DmozSpider
+3=tutorial.spiders.dmoz_spider
+2=tutorial.items
+1=tutorial.settings
+7=TutorialPipeline
+4=tutorial.pipelines
+-- END DICTIONARY
+-- START TREE 1
+5
+bot|1|BOT_NAME!11@
+dmo|2|DmozItem!17@DmozSpider!25@
+new|1|NEWSPIDER_MODULE!11@
+spi|1|SPIDER_MODULES!11@
+tut|1|TutorialPipeline!33@
+-- END TREE
+-- START TREE 2
+8
+all|1|allow_domains!5&27@
+des|1|desc!6&19@
+lin|1|link!6&19@
+nam|1|name!5&27@
+par|1|parse!5&26@
+pro|1|process_item!7&34@
+sta|1|start_urls!5&27@
+tit|1|title!6&19@
+-- END TREE

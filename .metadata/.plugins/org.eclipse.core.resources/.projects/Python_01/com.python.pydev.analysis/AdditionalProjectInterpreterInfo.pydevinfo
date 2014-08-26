@@ -1,0 +1,18 @@
+-- VERSION_4
+-- START DISKCACHE
+D:\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Python_01\com.python.pydev.analysis\v2_indexcache
+study_day_01.__init__|1408367888461|D:\workspace\Python_01\study_day_01\__init__.py
+study_day_01.test|1408113253722|D:\workspace\Python_01\study_day_01\test.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=study_day_01.test
+-- END DICTIONARY
+-- START TREE 1
+2
+pas|1|password!11@
+use|1|userName!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

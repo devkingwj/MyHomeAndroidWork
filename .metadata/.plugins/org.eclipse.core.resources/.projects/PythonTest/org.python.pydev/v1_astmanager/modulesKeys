@@ -1,0 +1,7 @@
+MODULES_MANAGER_V2
+tutorial.__init__|D:\workspace\PythonTest\tutorial\__init__.py
+tutorial.items|D:\workspace\PythonTest\tutorial\items.py
+tutorial.pipelines|D:\workspace\PythonTest\tutorial\pipelines.py
+tutorial.settings|D:\workspace\PythonTest\tutorial\settings.py
+tutorial.spiders.__init__|D:\workspace\PythonTest\tutorial\spiders\__init__.py
+tutorial.spiders.dmoz_spider|D:\workspace\PythonTest\tutorial\spiders\dmoz_spider.py
